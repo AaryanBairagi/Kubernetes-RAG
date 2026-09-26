@@ -23,3 +23,6 @@ beautifulsoup4
 ##OBSERVABILITY
 loguru      #enhanced logging
 logfire[fastapi , requests] #traces ingestion pipeline
+
+numpy 
+uuid

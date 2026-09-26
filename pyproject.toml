@@ -23,6 +23,7 @@ dependencies = [
     "qdrant-client>=1.19.1",
     "requests>=2.34.2",
     "sentence-transformers>=6.1.0",
+    "uuid>=1.30",
     "uvicorn[standard]>=0.54.0",
 ]
 
