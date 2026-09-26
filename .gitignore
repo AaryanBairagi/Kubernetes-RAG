@@ -11,3 +11,7 @@ wheels/
 .env
 .env.*
 !.env.example
+
+.DS_Store
+uv.lock
+.python-version
