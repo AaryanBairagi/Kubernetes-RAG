@@ -1,0 +1,25 @@
+##CORE API FRAMEWORK
+python-dotenv
+requests
+numpy
+fastapi
+uvicorn[standard]
+
+##GEMINI EMBEDDINGS
+langchain-google-genai  #langchain integration of google gemini api
+google-generativeai     #gemini api key - gemini-model-001
+sentence-transformers   #huggingface embeddings for fallback if gemini fails
+
+##VECTOR DB and RETRIEVAL
+qdrant-client #vector database for semantic search
+
+##DATA INGESTION
+pypdf       #both pypdf and pdfplumber used for pdf and loading processing it. imported both as fallback to other
+pdfplumber
+python-pptx #parser for ppt 
+python-docx #parser for word files
+beautifulsoup4
+
+##OBSERVABILITY
+loguru      #enhanced logging
+logfire[fastapi , requests] #traces ingestion pipeline
