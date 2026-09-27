@@ -10,6 +10,7 @@ requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.15.0",
     "fastapi>=0.141.1",
+    "fonttools>=4.66.0",
     "google-generativeai>=0.8.6",
     "langchain-google-genai>=4.4.0",
     "logfire[fastapi,requests]>=5.1.1",
@@ -23,6 +24,7 @@ dependencies = [
     "qdrant-client>=1.19.1",
     "requests>=2.34.2",
     "sentence-transformers>=6.1.0",
+    "unstructured[docx,pptx]>=0.27.9",
     "uuid>=1.30",
     "uvicorn[standard]>=0.54.0",
 ]

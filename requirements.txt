@@ -19,6 +19,7 @@ pdfplumber
 python-pptx #parser for ppt 
 python-docx #parser for word files
 beautifulsoup4
+unstructured[docx,pptx]
 
 ##OBSERVABILITY
 loguru      #enhanced logging
